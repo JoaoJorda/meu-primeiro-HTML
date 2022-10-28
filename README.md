@@ -1,2 +1,3 @@
 # meu-primeiro-HTML
-Meu primeiros web site de html desafio do Bootcamp do Dio.me 
+Meu primeiro web site com o html, foi o primeiro desafio do Bootcamp do dio.me
+ 
