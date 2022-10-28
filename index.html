@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="pt br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página principal</title>
+</head>
+<body> <h1 id="inicio">O HTML</h1>
+    <hr>
+    <h2>Índice</h2>
+    <ul>
+        <li><a href="#historia">História da internet</a></li>
+        <li><a href="#como">Como funciona a internet?</a></li>
+        <li><a href="#html">O que é HTML?</a></li>
+        <li><a href="#funciona">Como funciona o HTML</a></li>
+        <li><a href="#surgiu">Como surgiu o HTML</a></li>
+        <li><a href="#oquesao">O que são tags</a></li>
+        <li><a href="#principais">Principais tags do HTML</a></li>
+        <LI><a href="#atributos">O que são Atributos?</a></LI>
+        <LI><a href="#links">Links de referencias </a></LI>
+    </ul>
+
+    <h2 id="historia">História da internet</h2>
+
+    <h3>A Internet veio da Guerra</h3>
+        <p>Depois da Segunda Guerra, EUA e URSS começaram a ter seus desentendimentos, dando origem à Guerra Fria em 1949. Neste contexto, em que os dois blocos ideológicos e politicamente antagônicos exerciam enorme controle e influência no mundo, qualquer mecanismo, qualquer inovação, qualquer ferramenta nova poderia contribuir nessa disputa liderada pela União Soviética e pelos Estados Unidos: as duas superpotências compreendiam a eficácia e a necessidade absoluta dos meios de comunicação.</p>
+        <p>Nessa perspectiva, o governo dos Estados Unidos temia um ataque russo às bases militares. Um ataque poderia trazer a público informações sigilosas tornando os EUA vulneráveis.</p>
+        <p>O ataque inimigo nunca aconteceu, mas o que o Departamento de Defesa dos Estados Unidos não sabia era que dava início ao maior fenômeno midiático do século 20', único 
+        meio de comunicação que em apenas 4 anos conseguiria atingir cerca de 50 milhões de pessoas.</p>
+
+        <small><a href="#inicio">(voltar)</a></small>
+       
+
+    <h2 id="como">Como funciona a internet?</h2>
+
+    <h3>Como somos conectados?</h3>
+        <p>Nos comunicamos em segundos com qualquer lugar do mundo e provavelmente pensamos que toda a informação circula pelo ar ou por satélite, mas não é o caso, a grande pista de dados por onde circula 97% do tráfego da Internet são os cabos submarinos de fibra ótica, são um milhão de quilômetros de cabos interligando continentes, países e sub-regiões via submarino que nos permite usar a internet.</p>
+        <p>Cabos submarinos cruzam os oceanos de um extremo ao outro do mundo, a tecnologia de satélite é marginal e é usada apenas para lugares que são realmente muito isolados onde a fibra ou mesmo as redes de rádio não chegam.</p>
+        <p>As conexões por meio de redes submarinas são muito mais rápidas do que a tecnologia de satélite, principalmente porque a distância percorrida é muito menor. Os cabos de fibra ótica atingem uma velocidade de transmissão cada vez maior, suportando um número importante de terabytes por segundo, existem até desenvolvimentos de cabos que transmitem 1 PB (um peta bytes por segundo) que é 1000 Teras.</p>
+        <p>Instalar cabos não é uma tarefa fácil e pode levar alguns anos, para isso o cabo é preparado e construído, o comprimento que deve ter é calculado, é transportado com um barco que circula da superfície e desenrola o cabo de uma ponta à outra. No último trecho, quando se aproxima da costa, os cabos são enterrados, para evitar qualquer interferência humana ou animal que possa afetá-lo. Além disso, costas arenosas são frequentemente utilizadas, pois é mais fácil enterrar os cabos, geralmente evitam passar por grandes cidades e portos movimentados para reduzir o risco de afetar essa infraestrutura.</p>
+        <p>Existem atualmente mais de 420 cabos submarinos no mundo de acordo com o site <a target="_blank" href= https://www.submarinecablemap.com/ >submarinecablemap.com</a> e outros estão em construção.</p>
+
+        <small><a href="#inicio">(voltar)</a></small>
+
+
+    <h2 id="html">O que é HTML?</h2>  
+    
+    <h3>HTML?</h3>
+        <p>Criada pelo britânico Tim Berners-Lee, o acrônimo HTML significa HiperText Markup Language, traduzindo ao português: Linguagem de Marcação de Hipertexto.  O HTML é o componente básico da web, ele permite inserir o conteúdo e estabelecer a estrutura básica de um website. Portanto, ele serve para dar significado e organizar as informações de uma página na web. Sem isso, o navegador não saberia exibir textos como elementos ou carregar imagens e outros conteúdos.</p>
+        <p>Os hipertextos são conjuntos de elementos conectados. Esses podem ser palavras, imagens, vídeos, documento, etc. Quando conectados, formam uma rede de informações que permite a comunicação de dados, organizando conhecimentos e guardando informações.</p>
+        <p>Ao visitar uma página simples na web, você pode perceber que existem diferentes distribuições e tamanhos para títulos, parágrafos, imagens, vídeos e qualquer outro elemento. Essa estrutura é estabelecida através do HTML. No inicio da web, era comum encontrar sites apenas contendo textos e imagens simples, com estrutura básica e sem estilizações. Porém, nos dias atuais, muito dificilmente você encontrará sites que possuam apenas elementos HTML. Portanto, podemos considerar o HTML o “esqueleto” da sua página.</p>
+        <p>Imagine então que além do esqueleto, é necessário ter o corpo. Para isso, temos então as linguagens CSS e o JavaScript, que em conjunto com HTML, formam a base para todos os websites atuais.</p>
+
+        <small><a href="#inicio">(voltar)</a></small>
+
+
+    <h2 id="funciona">Como funciona o HTML</h2>
+
+       <p>Através de um documento HTML, ou seja, um documento com a extensão <mark>.html ou .htm. </mark>, o navegador faz a leitura do arquivo e renderiza o seu conteúdo para que o usuário final possa visualizá-lo. Os arquivos .html podem ser visualizados em qualquer navegador (como Google Chrome, Safari, ou Mozilla Firefox).</p>
+       <p>Geralmente um site é composto por diversas páginas HTML, como por exemplo: um website que contenha três páginas (uma homepage, uma página de contato e uma página de produtos) receberá ao menos três documentos .html distintos, sendo uma para cada página do website.</p>
+       <p>O código pode ser escrito através de qualquer editor de texto, como o próprio bloco de notas. Cada página consiste em uma série de tags (também chamados de elementos) que podem ser considerados os blocos de construção das páginas. Portanto, esses blocos são a maneira com a qual o HTML faz a marcação dos conteúdos, criando a hierarquia e a estrutura do mesmo, dividido entre seções, parágrafos, cabeçalhos, e outros.</p>
+
+       <small><a href="#inicio">(voltar)</a></small>
+
+
+    <h2 id="surgiu">Como surgiu o HTML</h2>
+
+    <h3>HTML</h3>
+       <p>Em 1980, o Físico Britânico <mark>Tim Berners-Lee</mark>, iniciou um projeto baseado na Marcação de HiperTexto, denominado ENQUIRE. Este projeto foi realizado inicialmente através da linguagem de programação Pascal. Anos mais tarde, em 1889, Tim Berners-Lee e o estudante Robert Cailliau conseguiram implementar a primeira comunicação entre o usuário e servidor através do protocolo HTTP. Com isso, surgia então a <mark>World Wide Web (www)</mark>, a web que conhecemos hoje.</p>
+       <p>Com o objetivo de facilitar comunicação e disseminação de documentos entre pesquisadores, ele criou então a linguagem de marcação de hipertexto, o HTML. A sua primeira versão foi publicada em 1991 e foi baseada na SGML, uma linguagem de marcação utilizada para a estruturação de documentos. O SGML já possuía diversas tags que foram herdadas pelo HTML. Contudo, a maior diferença entre essas duas linguagens, é que o HTML implementava a tag &lt;  a &gt;, permitindo a ligação de uma página a outra, conhecido como <mark>link</mark>.  A interligação entre documentos é a base do funcionamento de toda Web.</p>
+       <p>A linguagem de marcação de hipertexto ficou bastante conhecida quando começou a ser utilizada para formar a rede pública daquela época. Alguns anos mais tarde, se tornaria a linguagem padrão da internet que conhecemos hoje.<p>
+        
+        <small><a href="#inicio">(voltar)</a></small>
+
+
+    <h2 id="oquesao">O que são tags</h2>
+    
+       <p>Através de qualquer editor de texto, como o Sublime Text, o NotePad++ ou até mesmo o bloco de notas, é possível criar um documento com a extensão .html que será renderizado pelos navegadores.</p>
+       <p>Conforme explicado anteriormente, este documento consiste em uma série de tags. As tags são códigos que definem toda a estrutura da página, tais como o seu tamanho, a fonte da letra, as cores, as quebras de linha e etc. A maioria dos elementos do documento HTML são compostos por uma estrutura de abertura e uma de fachamento, como &lt;tag&gt; e &lt;/tag&gt;. Há também tags de estrutura única, como a tag &lt;br/&gt; que realiza uma quebra de linha.</p>
+       <p>Digamos que você queria escrever um paragrafo, chamamos então a tag &lt;p&gt;, escrevemos o paragrafo e finalmente fechamos a tag com &lt;/p&gt;:</p>
+    <blockquote>&lt;p&gt;Meu primeiro paragrafo.&lt;/p&gt;
+    </blockquote>
+    <p>Dessa forma, ao salvar o arquivo com a extensão .html e abri-lo em um navegador, você verá o parágrafo escrito na tela do navegador.</p>
+
+    <small><a href="#inicio">(voltar)</a></small>
+
+
+<h2 id="principais">Principais tags do HTML</h2>
+
+    <p>Atualmente existem mais de 140 tags, mas algumas delas quase não são 
+    utilizadas. Dentre as mais utilizadas temos:</p>
+<UL>
+    <li>&lt;head&gt; Para declarar todas informações, como título e metadados da sua página.</li>
+    <li>&lt;title&gt; Define o título.</li>
+    <li>&lt;body&gt; Local para declarar todos os elementos que irão compor o corpo da página.</li>
+    <li>&lt;h1&gt; , &lt;h2&gt; , &lt;h3&gt; , &lt;h4&gt; , &lt;h4&gt; , &lt;h6&gt; Tags para definir um título e subtítulos, variando de 1 a 6, sendo h1 o título mais importante e h6 o de menor importância.</li>
+    <li>&lt;p&gt; Tag para definir um parágrafo.</li>
+    <li>&lt;a&gt; Tag de link.</li>
+    <li>&lt;header&gt; Define um cabeçalho;</li>
+    <li>&lt;section&gt; Define uma seção;</li>
+    <li>&lt;article&gt; Define um artigo;</li>
+    <LI>&lt;div&gt; Define uma divisão.</LI>
+    <LI>&lt;footer&gt; Define um rodapé;</LI>
+    <LI>&lt;ol&gt; Define uma lista ordenada.</LI>
+    <LI>&lt;ul&gt; Define uma lista não ordenada.</LI>
+    <LI>&lt;li&gt; Define o item de uma lista.</LI>
+    <LI>&lt;input&gt; Define os campos do formulário.</LI>
+    <LI>&lt;img&gt; Permite inserir uma imagem no seu documento</LI>
+</UL>  
+
+     <small><a href="#inicio">(voltar)</a></small>
+
+
+<H2 id="atributos">O que são Atributos?</H2>
+    <P>Atributos são informações que passamos na Tag para que ela se comporte da maneira esperada. Existem atributos globais (que funcionam em todas as Tags) e específicos (que são direcionados para cada Tag, através de especificação).</P>
+    <p>Os Atributos possuem nome e um valor, existem Atributos que você vai usar praticamente sempre e existem outros que serão mais raros.</p>
+<h3>Atributos globais</h3>
+    <p> Seguem alguns atributos globais importantes e suas descrições simplificadas:</p>
+    <h4>accesskey</h4>
+    <p>Determina uma (ou mais) tecla(s) de atalho para o elemento. Para definir mais de uma tecla, coloque-as separadas por espaço.</p>
+    <h4>class</h4>
+    <p>Determina uma (ou mais) classe(s) para o elemento. Para definir mais de uma classe, coloque-as separadas por espaço.</p>
+    <h4>draggable</h4>
+    <p>Define se um elemento é arrastável ou não.</p>
+    <h4>hidden</h4>
+    <p>Oculta o elemento onde for declarado.</p>
+    <h4>id</h4>
+    <p>É o identificador único do elemento. Somente deve ser declarado um id por elemento. E este id não deve ser repetido na mesma página.</p>
+    <h4>lang</h4>
+    <p>Determina o idioma em que está escrito o conteúdo do elemento.</p>
+    <h4>style</h4>
+    <p>Determina propriedades CSS diretamente no elemento.</p>
+    <h4>tabindex</h4>
+    <p>Organiza os elementos por ordem de tabulação. Deve-se usar valor numérico.</p>
+    <h4>title</h4>
+    <p>Representa um auxílio ao elemento. Semelhante a dica do elemento.</p>
+
+    <small><a href="#inicio">(voltar)</a></small>
+
+<h2 id="links">Links de referencias</h2>
+   
+    <p>Toda a matéria foi tirada de vários sites. Para saber mais sobre HTML acesse:</p>
+    <p>Historia da internet: <a target="_blank" href="https://github.com/gustavoguanabara/html-css/blob/master/aulas-pdf/01%20-%20Hist%C3%B3ria%20da%20Internet.pdf"> PDF referencia</a></p>
+    <p>Como funciona a internet: <a target="_blank" href="https://www.internexa.com/pt/blogs/conectividade/como-funciona-a-internet/"> internexa.com</a></p>
+    <p>O html:<a target="_blank"href="https://www.homehost.com.br/blog/tutoriais/o-que-e-html/"> homehost.com.br</a></p>
+    <P>Tags do html:<a target="blank"href="https://tableless.github.io/iniciantes/manual/html/oquetags.html"> tableless.github.io</a></P>
+    <p>Atributos:<a target= "blank" href="https://tutorialehtml.com/pt/html-tutorial-atributos/"> tutorialehtml.com</a></p>
+    <p> Quer aprender mais? Acesse: <a target="_blank" href="https://www.dio.me/"> dio.me</a></p>
+    <p>E outro portal de aprendizado é o: <a target="blank" href="https://www.cursoemvideo.com/"> cursoemvideo.com</a></p>
+
+    <small><a href="#inicio">(voltar)</a></small>
+
+</body>
+</html>
